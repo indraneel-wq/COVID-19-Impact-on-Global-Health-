@@ -1,5 +1,5 @@
 # COVID-19-Impact-on-Global-Health
-In this project, I have not only performed Data Analysis but also Machine Learning model for the future prediction purpose.
+In this project, I have not only performed Data Analysis but also Machine Learning model for the future prediction purpose(uisng Time Series Forecasting).
 Data cleaning, Data preprocessing, Data transformation, Model building (if needed for prediction ), Visual Analysis for meaningful insights.
 In this project, I have done the data analysis of the report of COVID cases.
 Inorder to do that I have first upload .csv dataset of the covid-19 using pandas library.
