@@ -2,6 +2,8 @@
 
 A robust machine learning web application that visualizes and predicts the future trajectory of COVID-19 cases (Active, Confirmed, Recovered, Deaths) using state-of-the-art time-series forecasting.
 
+![Dashboard Preview](screenshots/dashboard.png)
+
 ## 🌟 Overview
 
 This project provides an intuitive dashboard for monitoring pandemic trends. By leveraging **Facebook Prophet**, an advanced additive regression model, it analyzes historical data from the `Covid-19.csv` dataset to generate accurate forecasts for the upcoming days. This tool is designed for researchers, data enthusiasts, and anyone interested in understanding public health data trends.
@@ -14,6 +16,16 @@ This project provides an intuitive dashboard for monitoring pandemic trends. By 
 *   **Visual Data Representation**: Interactive line charts with confidence intervals for easy trend analysis.
 *   **Robust Backend**: Powered by Flask for efficient data processing and API management.
 
+## 📸 Screenshots
+
+### Active Cases Forecast
+![Active Forecast](screenshots/active_forecast.png)
+*Tracking the specific trend of active infections.*
+
+### Cumulative Metrics Overview
+![Multi-Metric Forecast](screenshots/multi_forecast.png)
+*Comparing the growth of Confirmed, Recovered, and Death cases over time.*
+
 ## 🛠️ Tech Stack
 
 *   **Backend**: Python, Flask
@@ -25,9 +37,7 @@ This project provides an intuitive dashboard for monitoring pandemic trends. By 
 
 1.  **Dashboard View**: The home page displays the latest forecasted numbers for all four metrics.
 2.  **Custom Forecast**: Enter the number of days you want to predict (e.g., 30) in the "Forecast Horizon" box and click "Update Forecast".
-3.  **Analyze Charts**:
-    *   **Active Cases Chart**: Tracks the specific trend of active infections.
-    *   **Cumulative Metrics Chart**: Compares the growth of Confirmed, Recovered, and Death cases over time.
+3.  **Analyze Charts**: Observe trends and compare metrics directly on the dashboard.
 
 ## ⚙️ Setup & Installation
 
@@ -39,8 +49,8 @@ Follow these steps to run the project locally on your machine.
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/covid-19-forecast-dashboard.git
-cd covid-19-forecast-dashboard
+git clone https://github.com/indraneel-wq/COVID-19-Impact-on-Global-Health-.git
+cd COVID-19-Impact-on-Global-Health-
 ```
 
 ### Step 2: Create a Virtual Environment (Recommended)
@@ -72,6 +82,7 @@ The application will start on `http://localhost:5000`.
 ├── app.py              # Main Flask application logic
 ├── templates/
 │   └── index.html      # Frontend HTML dashboard
+├── screenshots/        # Project screenshots
 ├── Covid-19.csv        # Dataset used for training
 ├── requirements.txt    # List of Python dependencies
 ├── Procfile            # Configuration for deployment (e.g., Render/Heroku)
@@ -82,4 +93,4 @@ The application will start on `http://localhost:5000`.
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
-*Developed by [Your Name]*
+*Developed by Indraneel*
